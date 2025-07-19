@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #4285F4;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  width: 450px;
+  margin: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+}
+
+.container h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 0.75rem 0 0.3rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 0.65rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  color: #fff;
+  background: #4285F4;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+#high-score-box {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
+#quiz-container {
+  margin-top: 1rem;
+}
+
+#question-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #333;
+}
+
+#timer {
+  text-align: right;
+  font-weight: 600;
+  color: #f44336;
+  margin-bottom: 0.75rem;
+}
+
+#options-container button {
+  color: black;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+#options-container button:hover {
+  background: #e0e0e0;
+}
+
+#options-container button.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+#options-container button.incorrect {
+  background-color: #f44336;
+  color: white;
+}
+
+#question-status {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+#result-container h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+#score {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
